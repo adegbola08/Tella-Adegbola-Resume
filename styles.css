@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background-color: rgb(26, 24, 24);
     display: grid;
     place-content: center;
 }
@@ -48,6 +48,15 @@ body > div{
     color: rgb(205, 6, 175);
 }
 
-#push_right{
+#push_right_grad{
     margin-left: 600px;
+
+}
+
+#push_right_gpa{
+    margin-left: 564px;
+}
+
+#push_right_grad > i {
+    color: rgb(205, 6, 175);
 }
