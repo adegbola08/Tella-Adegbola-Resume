@@ -9,7 +9,7 @@ body > div{
     margin-bottom: 5vh;
     background-color: #eeeeee;
     width: 85vw;
-    border-radius: 10px;
+    border-radius: 15px;
     display: grid;
     place-content: center;
 }
@@ -46,4 +46,8 @@ body > div{
 
 #sub_section2{
     color: rgb(205, 6, 175);
+}
+
+#push_right{
+    margin-left: 600px;
 }
