@@ -1,0 +1,49 @@
+body{
+    background-color: azure;
+    display: grid;
+    place-content: center;
+}
+
+body > div{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: #eeeeee;
+    width: 85vw;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+}
+
+.personal_details{
+    text-align: center;
+    border-bottom: 1px solid red;
+    padding-top: 10px;
+}
+
+.personal_details > h1{
+    color: green;
+}
+
+.resume{
+    width: 80vw;
+}
+
+.resume h3{
+    color: red;
+}
+
+.education > p > #school_name{
+    color: green;
+}
+
+.resume p{
+    color: rgb(78, 78, 228);
+}
+
+#sub_section{
+    color: rgb(214, 140, 1);
+}
+
+#sub_section2{
+    color: rgb(205, 6, 175);
+}
